@@ -1,0 +1,268 @@
+@media screen and (max-width: 685px) {
+    body{
+        .contenedor{
+            header{
+                figure{
+                    img{
+                        width: 150px;
+                    }
+                }
+                button{
+                    width: 135px;
+                    height: 40px;
+                }
+            }
+
+            .sec-1{
+
+                h1{
+                    width: 100%;
+                    max-width: 335px;
+                    margin-top: 50px;
+                    font-size: 30px;
+                }
+                p{
+                    max-width: 335px;
+                    font-size: 16px;
+                    margin: 0px auto;
+                    margin-top: 40px;
+                }
+                button{
+                    width: 300px;
+                    height: 60px;
+                    font-size: 16px;
+                }
+                figure{
+                    width: 100%;
+                    max-width: 370px;
+                    height:auto;
+                    margin-top: 80px;
+                    text-align: center;
+
+                    img{
+                        width: 100%;
+                        max-width: 340px;
+                        height: auto;
+                    }
+                }
+
+                .capsule-1{
+                    flex-direction: column;
+                    align-items: center;
+            
+                    .capsule-3{
+                        margin-top: 120px;
+                    } 
+                }
+            }
+        }
+
+        .contenedor-2{
+    
+            .art-1{
+                .top{
+                    display: none;
+                }
+
+                .top2{
+                    display: initial;
+                    width: 100%;
+                    position: relative;
+                    top: 10px;
+                }
+    
+                .bottom{
+                    display: none;
+                }
+
+                .bottom2{
+                    display: initial;
+                    width: 100%;
+                    position: relative;
+                    bottom: 10px;
+                }
+    
+                .capsule-4{
+                    height: 550px;
+                    flex-direction: column-reverse;
+                    align-items: center;
+    
+                    h2{
+                        font-size: 26px;
+                        text-align: center;
+                    }
+    
+                    p{
+                        width: 100%;
+                        max-width: 320px;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+    
+                    figure{
+                        img{
+                            width: 100%;
+                            max-width: 275px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+    
+            .art-2{
+                height: 550px;
+                flex-direction: column;
+                align-items: center;
+    
+                figure{
+                    img{
+                        width: 100%;
+                        max-width: 275px;
+                        height: auto;
+                    }
+                }
+    
+                .capsule-6{
+                    
+                    h2{
+                        font-size: 26px;
+                        text-align: center;
+                    }
+    
+                    p{
+                        width: 100%;
+                        max-width: 320px;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+    
+            .art-3{
+    
+                .top{
+                    display: none;
+                }
+    
+                .top2{
+                    display: initial;
+                    width: 100%;
+                    position: relative;
+                    top: 10px;
+                }
+
+                .bottom{
+                    display: none;
+                }
+                
+                .bottom2{
+                    display: initial;
+                    width: 100%;
+                    position: relative;
+                    bottom: 10px;
+                }
+                
+                .capsule-7{
+                    height: 550px;
+                    flex-direction: column-reverse;
+                    align-items: center;
+    
+                    .capsule-8{
+    
+                        h2{
+                            font-size: 26px;
+                            text-align: center;
+                        }
+        
+                        p{
+                            width: 100%;
+                            max-width: 320px;
+                            font-size: 14px;
+                            text-align: center;
+                        }
+                    }
+    
+                    figure{
+                        img{
+                            width: 100%;
+                            max-width: 275px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        aside{
+
+            h3{
+                font-family: "popi";
+                font-size: 28px;
+            }
+    
+            button{
+                width: 300px;
+                height: 60px;
+                font-size: 16px;
+            }
+        }
+
+        footer{
+            .top{
+                display: none;
+            }
+
+            .top2{
+                display: initial;
+                width: 100%;
+                position: relative;
+                top: 10px;
+            }
+    
+            .background{
+                flex-direction: column-reverse;
+                justify-content: space-evenly;
+                height: 800px;
+    
+                .part-1{
+                    width: auto;
+                    max-width: auto;
+                    margin-top: 0px;
+                    padding: 1.5em;
+
+                    p{
+                        line-height: 22px;
+                    }
+                }
+    
+                .part-2{
+                    width: auto;
+                    max-width: auto;
+                    margin-top: 0px;
+                    padding: 1.5em;
+    
+                    p{
+                        width: 100%;
+                        max-width: 315px;
+                        line-height: 22px;
+                    }
+
+                    form{
+                        width:100%;
+                        max-width: 328px;
+                        display: flex;
+                        flex-direction: column;
+        
+                        input[type="submit"]{
+                            align-self: flex-end;
+                        }
+                    }
+                }
+            }
+
+            .attribution{
+                font-size: 12px;
+            } 
+        }
+    }
+}

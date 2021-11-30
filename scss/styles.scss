@@ -1,0 +1,541 @@
+// Colors
+
+$Pink: hsl(322, 100%, 66%);
+$Light-Pink: hsl(321, 100%, 78%);
+$Light-Red: hsl(0, 100%, 63%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pale-Blue: hsl(207, 100%, 98%);
+
+// Fonts
+
+@font-face {
+    font-family: "open1";
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "open2";
+    src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "open3";
+    src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "popi";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+}
+
+// Styles
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: auto;
+    height: auto;
+
+    .contenedor{
+        width: 100%;
+        height: auto;
+        max-width: 1440px;
+        margin: 0px auto;
+
+        header{
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            figure{
+                margin-left: 20px;
+            }
+
+            button{
+                width: 140px;
+                height: 45px;
+                color: $Pink;
+                margin-right: 20px;
+                font-family: "open1";
+                font-size: 16px;
+                border: 2px solid $Pink;
+                border-radius: 999px;
+                background-color: $Very-Pale-Blue;
+            }
+            button:hover{
+                border: 2px solid $Light-Pink;
+                color: $Light-Pink;
+                cursor: pointer;
+            }
+        }
+        
+        .sec-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1{
+                margin-top: 100px;
+                font-family: "open3";
+                font-size: 45px;
+                color: $Very-Dark-Cyan;
+                text-align: center;
+            }
+
+            p{
+                width: 100%;
+                max-width: 575px;
+                font-family: "open1";
+                font-size: 18px;
+                line-height: 28px;
+                text-align: center;
+                color: $Very-Dark-Cyan;
+                margin-top: 40px;
+            }
+
+            button{
+                width: 400px;
+                height: 75px;
+                border-radius: 999px;
+                font-family: "popi";
+                font-size: 18px;
+                color: white;
+                cursor: pointer;
+                background-color: $Pink;
+                margin-top: 50px;
+            }
+            button:hover{
+                background-color: $Light-Pink;
+                color: $Very-Pale-Blue;
+                box-shadow: 2px 3px 5px #ccc;
+            }
+
+            figure{
+                width: 100%;
+                max-width:1035px;
+                height:auto;
+                margin-top: 60px;
+
+                img{
+                    width: 100%;
+                    max-width:1035px;
+                    height: auto;
+                }
+            }
+
+            .capsule-1{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-top: 120px;
+
+                .capsule-2{
+                    display: flex;
+                    flex-direction: column;
+                        
+                    img{
+                        width: 40px;
+                        height: 35px;
+                    }
+                    .number{
+                        font-family: "open3";
+                        font-size: 80px;
+                    }
+                    .letra{
+                        font-family: "open1";
+                        color: #919598;
+                        text-align: center;
+                        letter-spacing: 1px;
+                    }
+                }
+                .capsule-3{
+                    display: flex;
+                    flex-direction: column;
+                        
+                    img{
+                        width: 35px;
+                        height: 30px;
+                    }
+                    .number{
+                        font-family: "open3";
+                        font-size: 80px;
+                    }
+                    .letra{
+                        font-family: "open1";
+                        color: #919598;
+                        text-align: center;
+                        letter-spacing: 1px;
+                    }
+                } 
+            }
+        }  
+    }
+
+    .contenedor-2{
+        margin-top: 135px;
+
+        .art-1{
+            .top2{
+                display: none;
+            }
+
+            .top{
+                width: 100%;
+                position: relative;
+                top: 10px;
+            }
+
+            .bottom2{
+                display: none;
+            }
+
+            .bottom{
+                width: 100%;
+                position: relative;
+                bottom: 10px;
+            }
+
+            .capsule-4{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: #f6fbff;
+
+                h2{
+                    font-family: "popi";
+                    font-size: 36px;
+                    color: $Very-Dark-Cyan;
+                    padding-bottom: 15px;
+                }
+
+                p{
+                    width: 100%;
+                    max-width: 500px;
+                    font-family: "open1";
+                    font-size: 16px;
+                    color: $Very-Dark-Cyan;
+                    line-height: 25px;
+                }
+
+                figure{
+                    img{
+                        width: 100%;
+                        max-width: 530px;
+                        height: auto;
+
+                    }
+                }
+            }
+        }
+
+        .art-2{
+            height: 440px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 80px;
+
+            figure{
+                img{
+                    width: 100%;
+                    max-width: 530px;
+                    height: auto;
+                }
+            }
+
+            .capsule-6{
+                
+                h2{
+                    font-family: "popi";
+                    font-size: 36px;
+                    color: $Very-Dark-Cyan;
+                    padding-bottom: 15px;
+                }
+
+                p{
+                    width: 100%;
+                    max-width: 515px;
+                    font-family: "open1";
+                    font-size: 16px;
+                    color: $Very-Dark-Cyan;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .art-3{
+            margin-top: 80px;
+
+            .top2{
+                display: none;
+            }
+
+            .top{
+                width: 100%;
+                position: relative;
+                top: 10px;
+            }
+
+            .bottom2{
+                display: none;
+            }
+
+            .bottom{
+                width: 100%;
+                position: relative;
+                bottom: 10px;
+            } 
+            
+            .capsule-7{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: #f6fbff;
+
+                .capsule-8{
+
+                    h2{
+                        font-family: "popi";
+                        font-size: 36px;
+                        color: $Very-Dark-Cyan;
+                        padding-bottom: 15px;
+                    }
+    
+                    p{
+                        width: 100%;
+                        max-width: 520px;
+                        font-family: "open1";
+                        font-size: 16px;
+                        color: $Very-Dark-Cyan;
+                        line-height: 25px;
+                    }
+                }
+
+                figure{
+                    img{
+                        width: 100%;
+                        max-width: 530px;
+                        height: auto;
+                        padding: 1em 0em 1em 0em;
+                    }
+                }
+            }
+        }
+    }
+
+    aside{
+        text-align: center;
+        width: 100%;
+        max-width: 635px;
+        margin: 0px auto;
+        margin-top: 125px;
+
+        h3{
+            font-family: "popi";
+            font-size: 35px;
+        }
+
+        button{
+            width: 400px;
+            height: 75px;
+            border-radius: 999px;
+            font-family: "popi";
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            background-color: $Pink;
+            margin-top: 35px;
+        }
+        button:hover{
+            background-color: $Light-Pink;
+            color: $Very-Pale-Blue;
+            box-shadow: 2px 3px 5px #ccc;
+        }
+    }
+
+    footer{
+        margin-top: 150px;
+
+        .top2{
+            display: none;
+        }
+
+        .top{
+            width: 100%;
+            position: relative;
+            top: 10px;
+        }
+
+        .background{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: $Very-Dark-Cyan;
+            height: 430px;
+
+            .part-1{
+                display: flex;
+                flex-direction: column;
+                margin-top: 5em;
+                width: 100%;
+                max-width: 500px;
+
+                .logo{
+                    width: 240px;
+                    height: 40px;
+                }
+
+                p{
+                    width: 100%;
+                    max-width: 305px;
+                    font-family: "open2";
+                    font-size: 14px;
+                    color: $Very-Pale-Blue;
+                    margin-top: 2em;
+                }
+
+                .capsule-9{
+                    width: 100%;
+                    max-width: 225px;
+
+                    .phone, .email{
+                        margin-right: 12px;
+                        margin-top: 1.2em;
+                    }
+
+                    a{
+                        font-family: "open1";
+                        text-decoration: none;
+                        color: $Very-Pale-Blue;
+                    }
+                }
+
+                .social{
+                    margin-top: 2em;
+
+                    img{
+                        cursor: pointer;
+                    }
+
+                    .bot-1,.bot-2, .bot-3{
+                        margin-right: 1em;
+                        background-color: $Very-Dark-Cyan;
+                    }
+
+                    .bot-1{
+                        .face-2{
+                            display: none;
+                        }
+                    }
+                    .bot-1:hover{
+                        .face-1{
+                            display: none;
+                        }
+                        .face-2{
+                            display: initial;
+                        }
+                    }
+
+                    .bot-3{
+                        .twitter-2{
+                            display: none;
+                        }
+                    }
+                    .bot-3:hover{
+                        .twitter-1{
+                            display: none;
+                        }
+                        .twitter-2{
+                            display: initial;
+                        }
+                    }
+                    .bot-2{
+                        .insta-2{
+                            display: none;
+                        }
+                    }
+                    .bot-2:hover{
+                        .insta-1{
+                            display: none;
+                        }
+                        .insta-2{
+                            display: initial;
+                        }
+                    }
+                    
+                }
+            }
+
+            .part-2{
+                width: 100%;
+                max-width: 635px;
+                margin-top: 5em;
+
+                h3{
+                    font-family: "popi";
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    color: $Very-Pale-Blue;
+                }
+
+                p{
+                    width: 100%;
+                    max-width: 350px;
+                    font-family: "open2";
+                    font-size: 14px;
+                    color: $Very-Pale-Blue;
+                    margin-top: 2em;
+                }
+
+                input[type="email"]{
+                    width: 100%;
+                    max-width: 300px;
+                    height: 45px;
+                    border-radius: 8px;
+                    padding-left: 2em;
+                    margin-top: 2em;
+                    margin-right: 1em;
+                }
+
+                input[type="submit"]{
+                    width: 100%;
+                    max-width: 165px;
+                    height: 45px;
+                    background-color: $Pink;
+                    font-family: "open3";
+                    font-size: 16px;
+                    color: $Very-Pale-Blue;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    margin-top: 2em;
+                }
+                input[type="submit"]:hover{
+                    background-color: $Light-Pink;
+                }
+            }
+        }
+
+        .attribution{
+            background-color: $Very-Dark-Cyan;
+            font-size: 14px;
+            text-align: center;
+            color: $Very-Pale-Blue;
+            font-family: "popi";
+            padding-bottom: 1em;
+
+            a{
+                color: $Light-Pink; }
+        }
+    }
+}
